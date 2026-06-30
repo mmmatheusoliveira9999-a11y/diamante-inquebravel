@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Teste</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main{
+            width: 80%;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,.2);
+        }
+
+        h2{
+            color: #1f2937;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button{
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button:hover{
+            background: #1d4ed8;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th, table td{
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table th{
+            background: #2563eb;
+            color: white;
+        }
+
+        footer{
+            text-align: center;
+            padding: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HTML de Teste</h1>
+    <p>Página criada para testes.</p>
+</header>
+
+<main>
+
+    <h2>Formulário</h2>
+
+    <form>
+        <label>Nome</label>
+        <input type="text" placeholder="Digite seu nome">
+
+        <label>Email</label>
+        <input type="email" placeholder="Digite seu email">
+
+        <label>Idade</label>
+        <input type="number" placeholder="Digite sua idade">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Tabela</h2>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Cidade</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Matheus</td>
+            <td>Canoinhas</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>João</td>
+            <td>Curitiba</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Maria</td>
+            <td>São Paulo</td>
+        </tr>
+    </table>
+
+    <h2>Botões</h2>
+
+    <button onclick="mensagem()">Clique Aqui</button>
+
+</main>
+
+<footer>
+    © 2026 - Página HTML de Teste
+</footer>
+
+<script>
+function mensagem(){
+    alert("Olá! Seu HTML está funcionando corretamente.");
+}
+</script>
+
+</body>
+</html>
